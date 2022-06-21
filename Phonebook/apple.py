@@ -7,7 +7,7 @@ def addname():
     address=input("Enter an address")
     email=input("Enter a Email")
     contact[name] = phone_number,address,email
-def search(s):
+def search():
     search_name=input("Search a name:")
     if search_name in contact:
         print(contact[search_name])

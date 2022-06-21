@@ -7,7 +7,7 @@ while True:
     if choice==1:
         apple.addname()
     elif choice==2:
-        apple.search(s)
+        apple.search()
     elif choice ==3:
         apple.display()
     elif choice == 4:
