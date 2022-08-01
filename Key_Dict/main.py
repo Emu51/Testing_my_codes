@@ -2,7 +2,7 @@ import jackfruit
 
 
 while True:
-    choice = int(input(" 1.Add new contact \n 2.Search Contact \n 3.Display Contacts \n 4.Edit Contact \n 5.Delete Contact \n 6.store contacts in a file "))
+    choice = int(input(" 1.Add new Key \n 2.Search key \n 3.Display key \n 4.Edit key \n 5.Delete key \n 6.store all key in a file "))
     if choice==1:
         jackfruit.addkey()
     elif choice==2:

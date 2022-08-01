@@ -6,13 +6,13 @@ def addkey():
     desc=input("Enter discription")
     code=input("Enter code snippet")
     
-    keys[keys] = desc,code
+    keys[key] = desc,code
 def search():
     search_key=input("Search a keys:")
     if search_key in keys:
         print(keys[search_key])
     else:
-        print("Name not found")
+        print("key not found")
 def display():
     print(keys)
 def edit():
